@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    input:disabled{
+      padding:5px;
+      background: green;
+      
+    }
+    input:enabled {
+      padding:5px;
+      background:red;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <form action="">
+    <fieldset style="color">
+      <legend>personal Data </legend>
+       Your name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter your name"><br><br>
+       Last name:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter last name"><br><br>
+       password:&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" placeholder="password"><br><br>
+          Gender:<input type="radio" name="gender">Male 
+          <input type="radio" name="gender">Female
+          <input type="radio" name="gender">other<br><br>
+        E-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email "><br><br>
+       mobile number:<input type="text"value="mobile numbers"maxlength="10"minlength="10"required><br><br>
+      date of birth:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date"name=""placeholder="enter date of birth" ><br><br>
+      Aadhar number:<input type="text"placeholder="Enter Aadhar number"><br><br>
+      <label>course:</label>
+      <select>
+        <option name="">select course</option>
+         <option name="">HTML</option>
+         <option name="">css</option>
+         <option name="">javascript</option>
+         <option name="">bootstrap</option>
+         <option name="">jaquri</option>
+         <option name="">java</option>
+      </select>
+      
+       <textarea placeholder="enter your address..." id="enter your information" cols="30" rows="10"></textarea>
+          <input type="submit">
+    </fieldset>
+    
+  </form>
+
+</body>
+
+</html>
